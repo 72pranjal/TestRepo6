@@ -1,13 +1,14 @@
-export{};
-interface userType{
-    name:string,
-    age:number
+interface StType{
+    name:string;
+    age:any;
+    address:string;
+    intrest:string;
 };
-let user:any={
-    name:'Pranjal',
-    age:20
+
+let stdata:StType={
+    name:'Tom',
+    age:'df',
+    address:'USA',
+    intrest:'Cricket'
 };
-function getname(num){
-    return num;
-}
-console.log(getname(user));
+console.log(stdata);

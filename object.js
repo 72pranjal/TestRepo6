@@ -1,11 +1,8 @@
-"use strict";
-exports.__esModule = true;
 ;
-var user = {
-    name: 'Pranjal',
-    age: 20
+var stdata = {
+    name: 'Tom',
+    age: 'df',
+    address: 'USA',
+    intrest: 'Cricket'
 };
-function getname(num) {
-    return num;
-}
-console.log(getname(user));
+console.log(stdata);
